@@ -37,5 +37,18 @@ main{
     left: 21px;
     height: 475px;
     width: 270px;
-    
+}
+#redes img:hover{
+    border: 2px solid rgb(167, 156, 156);
+    transform: translate(4px, -2px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.01s border 0.1s;
+}
+#redes img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.804);
+    box-sizing: border-box;
+
 }
